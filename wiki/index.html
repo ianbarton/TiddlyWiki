@@ -141,13 +141,19 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/DefaultMoreSidebarTab</li>
+
 <li>$:/config/DownloadSaver/AutoSave</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/encryption</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/theme</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/timestamp</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/unfold-all</li>
 
 <li>$:/core</li>
 
@@ -168,6 +174,10 @@ Error message and password prompt
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/state/folded/GettingStarted</li>
+
+<li>$:/state/folded/Test</li>
 
 <li>$:/state/tab--1418380610</li>
 
@@ -195,6 +205,8 @@ Error message and password prompt
 
 <li>Test</li>
 
+<li>Test 99</li>
+
 <li>TiddlyWiki</li>
 
 </ul>
@@ -211,8 +223,14 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20210314155901183" modified="20210314155901183" title="$:/config/DefaultMoreSidebarTab">
+<pre>$:/core/ui/MoreSideBar/Recent</pre>
+</div>
 <div created="20210314144433730" modified="20210314144447806" title="$:/config/DownloadSaver/AutoSave">
 <pre>yes</pre>
+</div>
+<div created="20210314154632515" modified="20210314154632515" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/encryption">
+<pre>show</pre>
 </div>
 <div created="20210312155607030" modified="20210312155607030" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
 <pre>show</pre>
@@ -221,6 +239,9 @@ Error message and password prompt
 <pre>show</pre>
 </div>
 <div created="20210312155904420" modified="20210312155904420" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/timestamp">
+<pre>show</pre>
+</div>
+<div created="20210314160121096" modified="20210314160121096" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/unfold-all">
 <pre>show</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.23">
@@ -10116,14 +10137,20 @@ Test
 <div created="20210312145634967" modified="20210312145643283" title="$:/SiteTitle">
 <pre>Ian's TiddlyWiki</pre>
 </div>
+<div created="20210314160116473" modified="20210314160124069" title="$:/state/folded/GettingStarted">
+<pre>show</pre>
+</div>
+<div created="20210314160116474" modified="20210314160124069" title="$:/state/folded/Test">
+<pre>show</pre>
+</div>
 <div created="20210312155646304" modified="20210312155723324" title="$:/state/tab--1418380610">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Themes</pre>
 </div>
 <div created="20210312155536162" modified="20210312155536162" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Themes</pre>
 </div>
-<div created="20210312152945093" modified="20210314144233587" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20210312152945093" modified="20210314155852920" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Settings</pre>
 </div>
 <div created="20210312152951895" modified="20210314145342658" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -10134,10 +10161,10 @@ Test
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210314144226175" list="[[14th March 2021]] TiddlyWiki [[Another Test  Tiddler.]] $:/ControlPanel $:/config/DownloadSaver/AutoSave GettingStarted Test" modified="20210314145614965" title="$:/StoryList">
+<div list="[[Test 99]] GettingStarted Test" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20210312155440003" modified="20210312155445899" title="$:/theme">
+<div created="20210312155440003" modified="20210314151424886" title="$:/theme">
 <pre>$:/themes/tiddlywiki/snowwhite</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -10257,6 +10284,9 @@ Test
 </div>
 <div created="20210314145206740" modified="20210314145224373" title="Test">
 <pre>This is a test Tiddler.</pre>
+</div>
+<div created="20210314160138154" modified="20210314160154803" tags="" title="Test 99">
+<pre>Some Text.</pre>
 </div>
 <div created="20210314145742979" modified="20210314145748913" title="TiddlyWiki">
 <pre>More testing.</pre>
